@@ -734,9 +734,9 @@ var gZenCKSSettings = {
       
       let fragment = window.MozXULElement.parseXULToFragment(`
         <hbox class="${ZEN_CKS_CLASS_BASE}">
-          <label class="${ZEN_CKS_LABEL_CLASS}" for="${ZEN_CKS_CLASS_BASE}-${keyID}"></label>
+          <label class="${ZEN_CKS_LABEL_CLASS}" for="${ZEN_CKS_CLASS_BASE}-${action}"></label>
           <vbox flex="1">
-            <html:input readonly="1" class="${ZEN_CKS_INPUT_FIELD_CLASS}" id="${ZEN_CKS_INPUT_FIELD_CLASS}-${keyID}" />
+            <html:input readonly="1" class="${ZEN_CKS_INPUT_FIELD_CLASS}" id="${ZEN_CKS_INPUT_FIELD_CLASS}-${action}" />
           </vbox>
         </hbox>
       `);
